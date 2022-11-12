@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url(./wallpaper/pexels-pixabay-33045.jpg) no-repeat center center/cover;
+  min-height: 100vh;
+  color: #fff;
+  place-content: center;
+  display: grid;
+}
+
+.container{
+  max-width:1000px;
+  margin: auto;
+}
+
+.card{
+  background-color: rgba(17, 16, 16, 0.7);
+  padding: 1rem;
+  border-radius: 5px;
+  width: 500px;
+  
+}
+.title{
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.taskform{
+  display: flex;
+  flex-direction:column;
+}
+input[type="text"]{
+  background: none;
+  border: none;
+  padding: 0.2rem;
+  border-bottom: solid 1px rgb(145, 143, 143);
+  transition: all 0.5s ease-in-out;
+  
+  
+}
+input:focus{
+  color: #fff;
+  outline: none;
+  border-bottom: solid 1px rgb(97, 95, 95);
+}
+
+
+
+.btn{
+  display: block;
+  background: gray;
+  color: #fff;
+  padding: 0.3rem 0.7rem;
+  border-radius: 30px;
+  border: none;
+  display: block;
+  margin: 1.5rem 0;
+  width: 100px;
+  align-self: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn:hover{
+  width: 120px;
+  background: rgb(75, 74, 74);
+}
+.title2{
+  text-align: center;
+  border-top: dotted 1px rgb(145, 143, 143);
+  padding-top: 0.1rem;
+}
+.list{
+  list-style: none;
+}
+.list .listItem{
+  border-bottom: dotted 1px rgb(49, 49, 49);
+  padding: 0.5rem 0;
+}
